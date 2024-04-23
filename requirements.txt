@@ -2,5 +2,3 @@ streamlit
 streamlit-autorefresh
 opencv-python-headless
 scikit-learn
-pywin32
-pyttsx3
