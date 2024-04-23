@@ -6,7 +6,6 @@ import os
 import csv
 import time
 from datetime import datetime
-from win32com.client import Dispatch
 import pyttsx3
 
 def speak(str1):
