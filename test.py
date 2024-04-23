@@ -7,10 +7,14 @@ import csv
 import time
 from datetime import datetime
 from win32com.client import Dispatch
+import pyttsx3
 
 def speak(str1):
-    speak = Dispatch(("SAPI.SpVoice"))
-    speak.Speak(str1)
+    #speak = Dispatch(("SAPI.SpVoice"))
+   #speak.Speak(str1)
+    engine = pyttsx3.init()
+    engine.say(str1)
+    engine.runAndWait()
 
 def run_face_recognition():
     video = cv2.VideoCapture(0)

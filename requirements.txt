@@ -2,3 +2,4 @@ streamlit
 streamlit-autorefresh
 opencv-python-headless
 scikit-learn
+pyttsx3
